@@ -1,4 +1,4 @@
-# Python interpreter excutes program line by line.
+# Python interpreter executes program line by line.
 
 # Simple print statements
 print("Furqan")
