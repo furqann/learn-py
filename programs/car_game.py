@@ -1,17 +1,16 @@
-help = input("")
-if help.lower() == "help":
-    print("Start the car type start")
-    print("Stop the car type stop")
-    print("Quit the game type quit")
-    choice = input()
-    while (True):
-        if choice.lower() == "start":
-            print("Car started")
-        elif choice.lower() == "stop":
-            print("Car stopped")
-        elif choice.lower() == "quit":
-            print("Quiting")
-            break
-        else:
-            print("I don't understand that...")
-        choice = input()
+while (True):
+    command = input('> ').lower()
+    if command == "start":
+        print("Car started")
+    elif command == "stop":
+        print("Car stopped")
+    elif command == "quit":
+        break
+    elif command == "help":
+        print("""
+Start the car type start
+Stop the car type stop
+Quit the game type quit
+        """)
+    else:
+        print("I don't understand that...")
