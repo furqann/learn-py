@@ -1,18 +1,18 @@
-last_command = ""
-while (True):
+is_started = False
+while True:
     command = input('> ').lower()
     if command == "start":
-        if last_command != "start":
-            print("Car started")
-            last_command = "start"
-        else:
+        if is_started:
             print("Car is already started")
-    elif command == "stop":
-        if last_command != "stop":
-            last_command = "stop"
-            print("Car stopped")
         else:
+            print("Car started")
+            is_started = True
+    elif command == "stop":
+        if not is_started:
             print("Car is already stopped")
+        else:
+            print("Car stopped")
+            is_started = False
     elif command == "quit":
         break
     elif command == "help":
