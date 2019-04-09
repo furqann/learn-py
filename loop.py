@@ -21,3 +21,8 @@ totalCost = 0
 for price in prices:
     totalCost += price
 print(f"Total cost: {totalCost}")
+
+#  Nested loop challenge
+numbers = [5, 2, 5, 2, 2]
+for number in numbers:
+    print("x" * number)
