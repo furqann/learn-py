@@ -9,3 +9,5 @@ for item in [0, 20]:
 #  Range function in loop
 for item in range(5):
     print(item)
+for item in range(10,15):
+    print(item)
