@@ -11,3 +11,5 @@ for item in range(5):
     print(item)
 for item in range(10,15):
     print(item)
+for item in range(20,30,2):
+    print(item)
