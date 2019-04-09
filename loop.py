@@ -16,8 +16,8 @@ for item in range(20,30,2):
 
 #  Exercise
 #  Print the total cost of items in a list
-itemList = [10, 20, 30]
+prices = [10, 20, 30]
 totalCost = 0
-for item in itemList:
-    totalCost += item
+for price in prices:
+    totalCost += price
 print(f"Total cost: {totalCost}")
