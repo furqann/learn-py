@@ -23,7 +23,7 @@ for price in prices:
 print(f"Total cost: {totalCost}")
 
 #  Nested loop challenge
-numbers = [5, 2, 5, 2, 2]
+numbers = [2, 2, 2, 2, 5]
 for x_count in numbers:
     output = ''
     for total_print in range(x_count):
