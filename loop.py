@@ -24,7 +24,8 @@ print(f"Total cost: {totalCost}")
 
 #  Nested loop challenge
 numbers = [5, 2, 5, 2, 2]
-for number in numbers:
-    for total_print in range(number):
-        print("*", end="")
-    print()
+for x_count in numbers:
+    output = ''
+    for total_print in range(x_count):
+        output += 'X'
+    print(output)
