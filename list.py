@@ -21,3 +21,10 @@ matrix = [
 for row in matrix:
     for item in row:
         print(item)
+
+#  Exercise: Remove duplicates from a list
+duplicate_list = [1,2,3,4,1,2]
+for number in duplicate_list:
+    if duplicate_list.count(number) > 1:
+        duplicate_list.remove(number)
+print(duplicate_list)
