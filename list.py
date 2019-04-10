@@ -24,7 +24,8 @@ for row in matrix:
 
 #  Exercise: Remove duplicates from a list
 duplicate_list = [1,2,3,4,1,2]
+unique_numbers = []
 for number in duplicate_list:
-    if duplicate_list.count(number) > 1:
-        duplicate_list.remove(number)
-print(duplicate_list)
+    if number not in unique_numbers:
+        unique_numbers.append(number)
+print(unique_numbers)
