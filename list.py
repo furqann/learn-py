@@ -11,3 +11,13 @@ print(temp)
 print(numbers[:])
 print(numbers[-1])  # Display the last item in the list
 print(numbers[2:4])  # Display the items from including index 2 upto 4 but excluding value of 4
+
+#  2D list
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+for row in matrix:
+    for item in row:
+        print(item)
