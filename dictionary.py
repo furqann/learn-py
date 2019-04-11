@@ -13,11 +13,13 @@ print(customer.get("Name", "No Name"))  # If key does not exist will return defa
 
 #  Exercise: Diplay 123 -> One Two Three
 numbers = {
-    1:  "One",
-    2:  "Two",
-    3:  "Three",
-    4:  "Four"
+    "1":  "One",
+    "2":  "Two",
+    "3":  "Three",
+    "4":  "Four"
 }
-number = input("Any number: ")
-for item in number:
-    print(numbers[int(item)])
+phone_number = input("Any number: ")
+output = ""
+for digit in phone_number:
+    output += numbers.get(digit, "!") + " "
+print(output)
