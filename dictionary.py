@@ -10,3 +10,14 @@ print(customer["name"])
 print(customer.get("name"))  # Another way to get the value
 print(customer.get("birthdate"))  # If key does not exist will return none
 print(customer.get("Name", "No Name"))  # If key does not exist will return default set value
+
+#  Exercise: Diplay 123 -> One Two Three
+numbers = {
+    1:  "One",
+    2:  "Two",
+    3:  "Three",
+    4:  "Four"
+}
+number = input("Any number: ")
+for item in number:
+    print(numbers[int(item)])
