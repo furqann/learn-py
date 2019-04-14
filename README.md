@@ -1,8 +1,8 @@
 # Learning Python
 
-Following this (https://www.youtube.com/watch?v=_uQrJ0TkZlc)[tutorial].
+Following this (tutorial)[https://www.youtube.com/watch?v=_uQrJ0TkZlc].
 
 ## Important Links
 
-Builtin Python (https://docs.python.org/3/py-modindex.html)[modules]
-Python (https://pypi.org/)[packages]
+Builtin Python (modules)[https://docs.python.org/3/py-modindex.html]
+Python (packages)[https://pypi.org/]
