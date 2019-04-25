@@ -3,10 +3,9 @@
 
 
 def is_palindrome(word):
-    to_string = str(word)
-    reverse = to_string[::-1]
-    return reverse == to_string
+    reverse = word[::-1]
+    return reverse == word
 
 
-user_input = input("Enter a palindrome: ")
+user_input = str(input("Enter a palindrome: "))
 print(is_palindrome(user_input))
