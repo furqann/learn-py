@@ -9,8 +9,8 @@ Make sure your program works on two lists of different sizes.
 
 """
 import random as r
-a = [r.randint(1, 5) for num in range(r.randint(5,15))]
-b = [r.randint(1, 5) for num in range(r.randint(5,15))]
+a = r.sample(range(15),5)
+b = r.sample(range(15),5)
 print(f"Random generated lists\na: {a}\nb: {b}")
 common = [n for n in (set(a) & set(b))]
 print (f"Common: {common}")
