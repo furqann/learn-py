@@ -2,8 +2,32 @@
 """
 Ask the user for a number and determine whether the number is prime or not.
 """
+
+
+def is_prime(number):
+    if number % 2 == 0:
+        print("Prime")
+    elif number % 3 == 0:
+        print("Prime")
+    elif number % 4 == 0:
+        print("Prime")
+    elif number % 5 == 0:
+        print("Prime")
+    elif number % 6 == 0:
+        print("Prime")
+    elif number % 8 == 0:
+        print("Prime")
+    elif number % 9 == 0:
+        print("Prime")
+    elif number % 10 == 0:
+        print("Prime")
+    else:
+        print("Not Prime")
+
+
 user_input = int(input("Enter number to check it is prime: "))
 if user_input == 1:
     print("Not Prime")
-elif user_input / user_input == 1:
-    print("Prime")
+else:
+    is_prime(user_input)
+
