@@ -12,6 +12,6 @@ def get_first_last_item(list_num):
   elif len(list_num) >= 1:
     return [list_num[0],list_num[-1]]
 
-  print(get_first_last_item([1,2,34,5,7]))
-  print(get_first_last_item([]))
-  print(get_first_last_item([2,3]))
+print(get_first_last_item([1,2,34,5,7]))
+print(get_first_last_item([]))
+print(get_first_last_item([2,3]))
