@@ -7,3 +7,7 @@ For example, say I type the string:
 Then I would see the string:
 =>  Michele is name My
 """
+a = "This is my school"
+b = a.split()
+b.reverse()
+print(b)
