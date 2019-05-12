@@ -8,6 +8,5 @@ Then I would see the string:
 =>  Michele is name My
 """
 a = "This is my school"
-b = a.split()
-b.reverse()
+b = " ".join(a.split()[::-1])
 print(b)
