@@ -6,3 +6,4 @@ Include your run-time code in a main method.
 => Extra:
   => Ask the user how strong they want their password to be. For weak passwords, pick a word or two from a list.
 """
+import random as r
