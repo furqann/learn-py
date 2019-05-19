@@ -5,3 +5,4 @@ Libraries Links:
   https://www.crummy.com/software/BeautifulSoup/bs4/doc/
   https://3.python-requests.org/
 """
+from bs4 import BeautifulSoup
