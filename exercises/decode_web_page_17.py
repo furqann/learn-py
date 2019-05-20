@@ -6,3 +6,5 @@ Libraries Links:
   https://3.python-requests.org/
 """
 from bs4 import BeautifulSoup
+from requests import HTTPSession
+
