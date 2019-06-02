@@ -22,5 +22,5 @@ Python [packages](https://pypi.org/)
 10. [While Loop](https://github.com/furqann/learn-py/blob/5b162ca019cc8f2e9bbb50535be19176c24fd9ef/while_loop.py)
 11. [For Loop](https://github.com/furqann/learn-py/blob/79f777a7215dfe9c5f56b5c7c6f7ae055dc82b35/loop.py)
 
-## Exercises
+## Exercise
 [Python Exercises Solution](https://github.com/furqann/learn-py/tree/master/exercises)
