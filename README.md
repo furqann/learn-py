@@ -1,6 +1,6 @@
 # Learning Python
 
-Following this [tutorial](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
+Followed this [tutorial](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
 
 ## Important Links
 
