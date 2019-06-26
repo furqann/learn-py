@@ -1,4 +1,4 @@
-# Learning Python
+# Learning Python PL
 
 [Python Tutorial](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
 
