@@ -1,4 +1,4 @@
-# Learning Python 3.7
+# Learning Python 3.7.0
 
 [Python Tutorial](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
 
